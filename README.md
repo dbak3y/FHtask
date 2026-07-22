@@ -1,6 +1,6 @@
 # Azure Container Registry Deployment using Terraform
 
-**Overview**
+# **Overview**
 This Terraform configuration deploys an Azure Container Registry (ACR) in the West Europe region. The registry is configured using Azure best practices, including the use of the Premium SKU and disabling the admin account.
 
 Following deployment, a Linux base image (Ubuntu 22.04) is imported into the registry using Azure Container Registry's native image import functionality.
