@@ -5,19 +5,18 @@ This Terraform configuration deploys an Azure Container Registry (ACR) in the We
 
 Following deployment, a Linux base image (Ubuntu 22.04) is imported into the registry using Azure Container Registry's native image import functionality.
 
-**Assumptions**
+# **Assumptions**
 •	Azure subscription is available.
 •	Tenant ID: 12345
 •	Azure CLI is installed and authenticated.
 •	Terraform 1.5 or later is installed.
 •	Sufficient permissions exist to create Azure resources.
 
-**Resources Created**
+# **Resources Created**
 •	Resource Group
 •	Azure Container Registry (Premium SKU)
 
-**Project Structure**
-
+# **Project Structure**
 .
 ├── provider.tf
 ├── variables.tf
@@ -25,7 +24,7 @@ Following deployment, a Linux base image (Ubuntu 22.04) is imported into the reg
 ├── outputs.tf
 └── README.md
 
-**Image Import**
+# **Image Import**
 The solution imports the Ubuntu 22.04 base image from Docker Hub into Azure Container Registry using:
 
 az acr import \
