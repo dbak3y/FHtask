@@ -21,7 +21,7 @@ Following deployment, a Linux base image, Ubuntu 22.04, is imported into the reg
 
 ## Project Structure
 
-FHtask
+```text
 .
 ├── vulnerability_analyser/
 │   ├── scan-report.json
@@ -32,7 +32,7 @@ FHtask
 ├── providers.tf
 ├── README.md
 └── variables.tf
-
+```
 
 ## Image Import
 
